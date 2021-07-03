@@ -7,7 +7,7 @@ You will be given information (on c++ programm you should enter by yourself) abo
 And you should to find the apartment that minimises a distance between your house and buildings you value.
 
 For example:
-'''
+```
 Apartments = [
   {
     "gym" : false
@@ -34,20 +34,20 @@ Apartments = [
     "school" : true
     "store" : true
   }.
-'''
+```
 
-'''
+```
 Required buildings = { "gym", "school", "store" }.
 Also it ca be like = {"gym", "store"} or just {"store"}.
-'''
+```
 
 In repo trere is a programm which find the best apartments to live. Input : list of apartents with their buildings(places) with boolean sign (true if it exists or false if it doesn't exist in the apartment).
 
 Also in programm convinient_house.cpp by default defined that there are exactly 3 places for every apartment(or house). You can change that in the code:
-'''
+```
 #define places 3
-'''
+```
 to
-'''
+```
 #define places (number you want)
-'''
+```
